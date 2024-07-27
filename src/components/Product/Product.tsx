@@ -1,10 +1,11 @@
 import './styles.css'
 
-type ProductT = {
+export type ProductT = {
     name: string
     image: string
     mark: string
     price: string
+    category?: string
 }
 
 export function Product({ name, image, mark, price }: ProductT) {

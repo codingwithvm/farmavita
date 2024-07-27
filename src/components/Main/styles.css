@@ -16,3 +16,12 @@ section > h1 {
     gap: 10px;
     flex-wrap: wrap;
 }
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+}
